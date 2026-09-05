@@ -1,4 +1,4 @@
-# Vectorworks Technical Guide
+# Vectorworks technical guide
 
 *Standards and procedures for day-to-day CAD production at an Architecture Firm.*
 
@@ -6,7 +6,7 @@ This guide covers the recurring, easy-to-forget procedures for working inside th
 
 ---
 
-## Admin: Setup a New Project
+## Admin: setup a new project
 
 This is an admin-level process for new projects. This assumes the new project has been created from the project template folder. After the first time this process is run, do not repeat it.
 
@@ -30,21 +30,21 @@ This is an admin-level process for new projects. This assumes the new project ha
 12. Save the working file to your computer.
 13. Skip the next section, as you already have a working file.
 
-## Working Files and Server Files
+## Working files and server files
 
 Vectorworks has a project file that is saved on the server. You will not be editing this file directly. Instead, you will make a working copy that is saved on your computer. After the first time you create a working file, you do not need to repeat this process — simply open your working file and begin work. If you wish to learn more about how the working files and server files coexist, see the [Project Sharing & Version Control Concepts](project-sharing-workflow.md) guide.
 
 > **Note:** Some of the old projects weren't converted over to the server/working-file system, because they were closed prior to the firm's adoption of this method. If a file on the server ends in `.vwx`, you may open the file directly.
 
-### New Working Files
+### New working files
 
 1. Open Vectorworks.
 2. Select **File | Open**.
 3. Navigate to the project (`.vwp`) file on the server.
-4. Select it and press **Open**. Your working file will be automatically created.
+4. Select it and click **Open**. Your working file will be automatically created.
 5. Save this file to your computer. It will have a `.vwxw` extension and be listed as a Vectorworks Working File type.
 
-#### Older Projects
+#### Older projects
 
 In the summer of 2025, Vectorworks changed how to open project files. If the above method doesn't work, you'll have to use this older process to create a working file.
 
@@ -56,42 +56,42 @@ In the summer of 2025, Vectorworks changed how to open project files. If the abo
 
 4. Navigate to the *Project Folder/Project CAD/Project Vectorworks files/* folder.
 5. Select the `Project.vwxp` file on the right.
-6. Press **OK**. Your working file will be automatically created.
+6. Click **OK**. Your working file will be automatically created.
 7. Save this file to your computer. It will have a `.vwxw` extension and be listed as a Vectorworks Working File type.
 
-## Notes about Automation
+## Notes about automation
 
 Most of the changes to the firm's workflow have to do with taking advantage of the automations Vectorworks provides. Objects like drawing labels, section markers, and title blocks are not edited directly — more often than not, they are *not* editable by double-clicking on them. Instead, select the object and look at the Object Info panel. What you're wanting to change is either locked for style purposes or easily editable there.
 
 The project folder contains AB, SD, and CD sheets with title blocks that already have the correct information for their corresponding sheet. The design layers are set up with the firm's typical areas of interest — add, edit, or delete these to meet individual project needs (see the firm's Vectorworks admin guide for more on how). The classes are set up with the typical ones the firm uses, and are editable.
 
-## Setup for New Projects
+## Setup for new projects
 
 This is not the technical setup of creating a new project and its file structure — for those steps, refer to the IT manual.
 
-### Project and Client Data Setup
+### Project and client data setup
 
 1. Open your working file.
 2. Go to any of the existing sheets and select the title block.
-3. Press the **Project Data** button in the Object Info panel (it's a button at the bottom right).
+3. Click the **Project Data** button in the Object Info panel (it's a button at the bottom right).
 
    ![Title block Project Data panel](images/technical-guide/02-title-block-project-data-panel.png)
 
 4. Update the Project Name with the client's name (ALL CAPS), project address, and project type (the drop-down box shown below).
-5. Press **OK**.
+5. Click **OK**.
 
    ![Project Data fields showing placeholder project name and address](images/technical-guide/03-project-data-fields.png)
 
-### North Arrow Setup
+### North arrow setup
 
 1. Click on the North Arrow layer under `-----Resources-----` in the Design Layers tab.
 2. Read the notes on the design layer for how to update the compass rose so north points in the appropriate direction for your project.
 
-## Working with Sheets — General Information
+## Working with sheets — general information
 
-### Creating a New Sheet
+### Creating a new sheet
 
-While there are several ways to create a new sheet, this method keeps all the settings intact. Please don't edit the template directly.
+While there are several ways to create a new sheet, this method keeps all the settings intact. Don't edit the template directly.
 
 1. In the Sheet Layers tab, select the appropriate template:
    - Select `Template-SD` for SD sheets.
@@ -101,16 +101,16 @@ While there are several ways to create a new sheet, this method keeps all the se
 
    ![Duplicating a sheet template](images/technical-guide/04-duplicate-sheet-template.png)
 
-#### Updating the Sheet Information
+#### Updating the sheet information
 
 1. Select the title block on the new sheet.
-2. Press the **Sheet Data** button on the Object Info panel.
+2. Click the **Sheet Data** button on the Object Info panel.
 3. Type in the new sheet title and number.
 4. Type in the date you want displayed on the sheet, in the *Month Date, Year* style (example: *January 1, 2027*).
 5. Select the correct sheet scale from the drop-down menu (additional scales can be added — see your firm's Vectorworks admin guide).
-6. Press **OK**.
+6. Click **OK**.
 
-#### Adding a Sheet Scale Symbol
+#### Adding a sheet scale symbol
 
 Necessary unless the sheet scale is N.T.S. or As Noted.
 
@@ -118,12 +118,12 @@ Necessary unless the sheet scale is N.T.S. or As Noted.
 
    ![Symbol Insertion Tool tooltip](images/technical-guide/05-symbol-insertion-tool.png)
 
-2. Press the dropdown arrow next to **Select a Symbol Definition**.
+2. Click the dropdown arrow next to **Select a Symbol Definition**.
 
    ![Select a Symbol Definition dropdown](images/technical-guide/06-select-symbol-definition-dropdown.png)
 
 3. Select the appropriate scale for your sheet.
-4. Press **Select**.
+4. Click **Select**.
 
    ![Resource Manager showing available symbol styles](images/technical-guide/07-resource-manager-symbol-styles.png)
 
@@ -133,21 +133,21 @@ Necessary unless the sheet scale is N.T.S. or As Noted.
 
 6. Move your mouse to the right horizontally and click to place the scale symbol.
 
-#### Move the Sheet
+#### Move the sheet
 
 Drag & drop the new sheet (or any other method you prefer) to the correct order within the existing sheets.
 
-## SD Files
+## SD files
 
-### Adding the Sheet Number
+### Adding the sheet number
 
 The firm numbers SD sheets with the same number for one design option. Because of the way Vectorworks calculates sheet numbers, they have to be unique.
 
 The work-around is to place a space in front of the page number if there is more than one sheet — for example: `SD-2`, `_SD-2`, `__SD-2` for three sheets.
 
-## CD Files
+## CD files
 
-### Adding Revision (Issue) Information
+### Adding revision (issue) information
 
 Double-click the title border on the sheet to access the Title Block Border Settings. On the left, you'll see Revision Data and Issue Data.
 
@@ -155,33 +155,33 @@ Double-click the title border on the sheet to access the Title Block Border Sett
 
 ![Revision Data panel](images/technical-guide/09-revision-data-panel.png)
 
-1. Press the **Add…** button.
+1. Click the **Add…** button.
 
    ![Add New Revision dialog](images/technical-guide/10-add-new-revision-dialog.png)
 
 2. Enter the date the sheet will be issued in the **Revision Date** field. The format is `DD MON YY` (example: `05 JUN 27`).
 3. In ALL CAPS, put the revision information in the **Description** box.
-4. Press **OK**.
-5. Press **OK**.
+4. Click **OK**.
+5. Click **OK**.
 
 The information is added to the sheet and is available for the Drawing List.
 
-## Appendix A — Title Blocks
+## Appendix A — title blocks
 
 There are several title blocks in the project resources. Each relates to the phase of the project — AB, SD, and CD. They are all on Arch D sized paper.
 
 ![Title Block Styles in the Resource Manager](images/technical-guide/11-title-block-styles-resource-manager.png)
 
-### Changing the Title Block
+### Changing the title block
 
 If your sheet already has a border that needs to change, you may either:
 
-#### Delete and Replace
+#### Delete and replace
 
 1. Select then delete the title block border.
 2. From the Resource Browser, double-click on the one you want to place, then click on the sheet — or double-click the "Title Block Border Tool" in the Tool Sets panel, select the correct border style in the dropdown box, then click on the sheet to place.
 
-#### Update the Current Border
+#### Update the current border
 
 1. Select the title block border.
 2. Look at the Object Info panel and select the dropdown for Style.
@@ -189,11 +189,11 @@ If your sheet already has a border that needs to change, you may either:
    ![Title Block Border style dropdown](images/technical-guide/12-title-block-border-style-dropdown.png)
 
 3. Select **Replace**.
-4. Press the dropdown arrow button.
+4. Click the dropdown arrow button.
 5. Choose the new title block border.
-6. Press **OK**.
+6. Click **OK**.
 
-#### Adding the Architect Stamp to the Title Block Area
+#### Adding the architect stamp to the title block area
 
 1. Select the Symbol Insertion Tool.
 
@@ -209,7 +209,7 @@ If your sheet already has a border that needs to change, you may either:
 
 4. Click once on the sheet for an insertion point, then another to the right horizontally (because VW can rotate symbols).
 
-### Drawing List aka Sheet Index
+### Drawing list aka sheet index
 
 In new projects, the Drawing List is automatically generated. This describes how that works and things you might want to know.
 
@@ -217,15 +217,15 @@ In new projects, the Drawing List is automatically generated. This describes how
 
 Unfortunately, Vectorworks does not allow for double-line borders on worksheets. There are two rectangles around the drawing list worksheet. When the drawing list is updated, you'll need to resize the rectangles.
 
-#### Updating the Drawing List
+#### Updating the drawing list
 
 To update the drawing list, right-click on it and select "Recalculate Selected Worksheet." This re-runs the search and will add/delete items from the list.
 
-#### Exclude a Sheet from the Drawing List
+#### Exclude a sheet from the drawing list
 
 If you want to exclude a sheet from the drawing list, type an `X` in front of the sheet number.
 
-#### Behind the Scenes
+#### Behind the scenes
 
 The drawing list displays sheets based on search criteria. The first thing it looks for is in the sheet number — does it begin with `A-` or `E-`, etc. These will be placed, in the proper order, within the drawing list. After the worksheet determines that a sheet should be included, it looks for the latest revision date.
 
@@ -233,28 +233,28 @@ If there is no revision date in the sheet title border, the sheet will not be in
 
 If there is a revision date, the worksheet will display the most recent revision.
 
-## Appendix B — Working with Viewports Intended for Sheets
+## Appendix B — working with viewports intended for sheets
 
 You can use viewports on design layers, of course. Follow steps 1, 2, 3 (but choose the design layer), 7, and 8 below.
 
-### Making a New Viewport
+### Making a new viewport
 
 1. Select **View | Create Viewport** and make your viewport in your normal way.
-2. Keep "Name viewport as Dwg No./Sheet No." checked.
+2. Keep "Name viewport as Dwg No./Sheet No." selected.
 3. Create on layer — select the sheet where the viewport should be placed.
-4. "Use drawing label" should be checked.
+4. "Use drawing label" should be selected.
 5. The style needs to be "FirmName Drawing Label" — either the SD or CD version.
 6. Fill in the Drawing Number and Drawing Title.
 7. Choose the correct scale.
-8. Press **OK**.
+8. Click **OK**.
 
 > **Important:** If your viewport will be at FULL SCALE, you'll have to edit the Drawing Label to reflect this scale. VW's default wording is "Actual Size" in this field. Go to the Drawing Label's Object Info panel, change the Scale Display to Custom, and type "FULL" in the Custom Scale box.
 
-### Copying an Existing Viewport
+### Copying an existing viewport
 
 If you copy, be certain to update the Drawing Title and Drawing Number in the Object Info panel.
 
-### Moving a Viewport to Another Sheet
+### Moving a viewport to another sheet
 
 > **Important!** If you cut and paste a viewport to another sheet, all the markers pointing to that viewport will be deleted.
 
@@ -262,11 +262,11 @@ To safely do this, select the viewport you want to move and change its sheet/des
 
 ![Viewport Object Info panel](images/technical-guide/16-viewport-object-info.png)
 
-## Appendix C — Sections
+## Appendix C — sections
 
 When creating a new section, you'll want to have the viewport of the section already placed on a sheet, so you don't have to go back and edit the section marker. (There is a "Create Section Viewport" button, but that's if you're using 3D models.)
 
-### Adding a Section Line/Marker
+### Adding a section line/marker
 
 1. Open the annotation area of the viewport where you want to place the marker.
 2. Click on "Section-Elevation Line Tool" in the Tool Sets area.
@@ -280,19 +280,19 @@ When creating a new section, you'll want to have the viewport of the section alr
 7. The Drawing Title, Drawing Number, and Sheet Number are automatically updated and will remain current with the information you previously added when you created the section viewport.
 8. You're able to grab either of the line's handles to change its length, move it, and rotate it as normal. To change the direction the arrow is pointing, press the "Reverse Direction" button in the Object Info panel.
 
-### Adding a Gap to a Section Line
+### Adding a gap to a section line
 
 There's currently no way to do this and keep to our documentation standards. You'll have to add an object (probably a rectangle) and fill it with black to mask out the section line.
 
-### Editing/Adding Information on a Section Marker
+### Editing/adding information on a section marker
 
 Select the section marker and update the information in the Object Info panel.
 
-## Appendix D — Details
+## Appendix D — details
 
 Details work in a very similar manner to section markers. They automatically coordinate with the viewport you choose/create. There is a Create Detail Viewport option in the View menu, but if you use it, the crop of the viewport will match the shape you draw and be linked to that shape — if you change the shape/size of the detail marker rectangle, the detail will also change. This can be quite useful, but keep it in mind.
 
-### To Add a Detail Marker
+### To add a detail marker
 
 Create your viewport per your desired method, then:
 
@@ -307,45 +307,45 @@ Create your viewport per your desired method, then:
 6. In the Object Info panel, select your previously created viewport via the "Linked Viewport" dropdown.
 7. Also in the Object Info panel are the settings for the marker position (including custom).
 
-### Editing the Size of the Detail Area
+### Editing the size of the detail area
 
 1. Select the detail marker.
 2. Select the Reshape Tool (the icon looks like a rectangle with one corner pulled up).
 3. Modify your area as needed.
 4. Deselect the detail marker.
 
-## Appendix E — Interior Elevation Markers
+## Appendix E — interior elevation markers
 
-### To Add an Interior Elevation Marker
+### To add an interior elevation marker
 
 1. Edit the annotations for the viewport in question.
 2. Double-click on the Interior Elevation Marker from the Tool Set panel.
 3. Verify that the style is "FirmName – Interior Elevation Marker Style."
 4. Select the Linked Layer that is the sheet where the interior elevation resides.
 5. Note that N/S/E/W in the info box means top/bottom/left/right of the marker, not the actual orientation of our building.
-6. Check/uncheck the N/S/E/W boxes and select the correct Linked Viewport for the checked boxes.
-7. Press **OK**.
+6. Select/clear the N/S/E/W boxes and select the correct Linked Viewport for the selected boxes.
+7. Click **OK**.
 8. Click to place your marker.
 
-### To Edit an Interior Elevation Marker
+### To edit an interior elevation marker
 
 1. Select the marker.
 2. Use the Object Info panel to update the information.
 
-## Appendix F — Room Names
+## Appendix F — room names
 
-### To Add a Room Name Symbol
+### To add a room name symbol
 
 1. Click on "Room Name" in the Tool Sets panel.
 2. Click once to place the special symbol.
 3. Click again to set the rotation.
 4. Edit the room name and dimensions in the Object Info panel.
 
-## Appendix G — Reference Markers
+## Appendix G — reference markers
 
 In case you need one:
 
-### To Add a Reference Marker
+### To add a reference marker
 
 1. Click on "Reference Marker" in the Tool Sets panel.
 2. Click once to place the symbol portion.
@@ -358,11 +358,11 @@ In case you need one:
 6. The Drawing Title, Drawing Number, and Sheet Number are automatically updated and will remain current with the information you previously added when you created the detail viewport.
 7. You're able to edit the Detail Shape and Reference Marker as usual.
 
-### Editing/Adding Information to a Reference Marker
+### Editing/adding information to a reference marker
 
 Select the reference marker and update the information in the Object Info panel.
 
-## Appendix H — Symbols
+## Appendix H — symbols
 
 This document has already gone over a few of the symbols you can add, including Sheet Scales and the Architect Stamp. There are a few more that can be useful, if you wish to use them.
 
@@ -379,7 +379,7 @@ There's a larger one for drawings and a smaller one for dimensions.
 
 The standard centerline marker. Draw a line from this symbol and set its Pen to Line Type 11.
 
-### Exterior Elevation Marker
+### Exterior elevation marker
 
 The standard symbol without the lines. There are two locus points for text placement. You'll need to draw the elevation line and set its Pen to Line Type 12. You'll also need to draw a solid line dividing the two text boxes.
 
@@ -387,35 +387,35 @@ Example:
 
 ![Exterior Elevation Marker example](images/technical-guide/20-exterior-elevation-marker-example.png)
 
-### SD Wall Legend
+### SD wall legend
 
 The basic box that shows what the shading means.
 
-## Appendix I — Special Cases
+## Appendix I — special cases
 
-### How to Move the Title Block
+### How to move the title block
 
-1. Select the title block and press one of the Sheet Data/Project Data buttons in the Object Info panel to bring up the Title Block Border Settings panel.
+1. Select the title block and click one of the Sheet Data/Project Data buttons in the Object Info panel to bring up the Title Block Border Settings panel.
 2. Select "Sheet Border."
 
    ![Sheet Border settings](images/technical-guide/21-sheet-border-settings.png)
 
 3. Adjust the Right border to a value that works for your sheet.
-4. Press **OK**.
+4. Click **OK**.
 
-## Appendix J — Things You Probably Shouldn't Change/Press/Etc.
+## Appendix J — things you probably shouldn't change/press/etc.
 
-### Title Block Manager Button in the Object Info Panel
+### Title block manager button in the Object Info panel
 
 This changes the title block on multiple/all of the sheets in the entire project. Do not use unless you know what you're doing.
 
-### Title Blocks in the Resource Manager
+### Title blocks in the Resource Manager
 
 If you edit the title block from here, you will change the template permanently, for all sheets in the project. It's better to use the available options, make a new one (see the VW documentation), or ask for help.
 
-### Title Block Convert to Unstyled Button
+### Title block convert to unstyled button
 
-This makes the title block into a one-off version. Please don't, unless you're absolutely certain you want to do this.
+This makes the title block into a one-off version. Don't, unless you're absolutely certain you want to do this.
 
 ---
 
