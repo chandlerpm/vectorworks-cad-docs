@@ -46,7 +46,7 @@ Vectorworks has a project file that is saved on the server. You will not be edit
 
 #### Older projects
 
-In the summer of 2025, Vectorworks changed how to open project files. If the above method doesn't work, you'll have to use this older process to create a working file.
+In the summer of 2025, Vectorworks changed how to open project files. If the previous method doesn't work, you'll have to use this older process to create a working file.
 
 1. Open Vectorworks.
 2. Select **File | Open Project Sharing Server File**.
@@ -73,7 +73,7 @@ This is not the technical setup of creating a new project and its file structure
 
 1. Open your working file.
 2. Go to any of the existing sheets and select the title block.
-3. Click the **Project Data** button in the Object Info panel (it's a button at the bottom right).
+3. Click the **Project Data** button in the Object Info panel.
 
    ![Title block Project Data panel](images/technical-guide/02-title-block-project-data-panel.png)
 
@@ -151,7 +151,7 @@ The work-around is to place a space in front of the page number if there is more
 
 Double-click the title border on the sheet to access the Title Block Border Settings. On the left, you'll see Revision Data and Issue Data.
 
-> **Do not use Issue Data** — Vectorworks isn't smart enough to know that an issue and a revision are the same thing to the firm. We had to pick one to use, and Revision Data was it.
+> **Do not use Issue Data** — Vectorworks isn't smart enough to know that an issue and a revision are the same thing to the firm.
 
 ![Revision Data panel](images/technical-guide/09-revision-data-panel.png)
 
@@ -229,13 +229,13 @@ If you want to exclude a sheet from the drawing list, type an `X` in front of th
 
 The drawing list displays sheets based on search criteria. The first thing it looks for is in the sheet number — does it begin with `A-` or `E-`, etc. These will be placed, in the proper order, within the drawing list. After the worksheet determines that a sheet should be included, it looks for the latest revision date.
 
-If there is no revision date in the sheet title border, the sheet will not be included. This allows us to create empty sheets ready for content without having them included before they're ready for release.
+If there is no revision date in the sheet title border, the sheet will not be included. This lets you create empty sheets ready for content without them appearing before they're ready for release.
 
 If there is a revision date, the worksheet will display the most recent revision.
 
 ## Appendix B — working with viewports intended for sheets
 
-You can use viewports on design layers, of course. Follow steps 1, 2, 3 (but choose the design layer), 7, and 8 below.
+You can use viewports on design layers. Follow steps 1, 2, 3 (but choose the design layer), 7, and 8 below.
 
 ### Making a new viewport
 
@@ -278,11 +278,11 @@ When creating a new section, you'll want to have the viewport of the section alr
 
 6. If you forgot to do step 2, you can change the style here too.
 7. The Drawing Title, Drawing Number, and Sheet Number are automatically updated and will remain current with the information you previously added when you created the section viewport.
-8. You're able to grab either of the line's handles to change its length, move it, and rotate it as normal. To change the direction the arrow is pointing, press the "Reverse Direction" button in the Object Info panel.
+8. You're able to grab either of the line's handles to change its length, move it, and rotate it as normal. To change the direction the arrow is pointing, click the "Reverse Direction" button in the Object Info panel.
 
 ### Adding a gap to a section line
 
-There's currently no way to do this and keep to our documentation standards. You'll have to add an object (probably a rectangle) and fill it with black to mask out the section line.
+There's currently no way to do this and keep to the firm's documentation standards. You'll have to add an object (probably a rectangle) and fill it with black to mask out the section line.
 
 ### Editing/adding information on a section marker
 
@@ -298,7 +298,7 @@ Create your viewport per your desired method, then:
 
 1. Edit the viewport annotation where you want to call out the detail.
 2. Select the Detail Callout Tool in the Dim/Notes area of the Tool Sets.
-3. Just above the drawing area, verify that the style is "FirmName – Detail Callout Style."
+3. Verify that the style is "FirmName – Detail Callout Style."
 
    ![Detail Callout Style toolbar](images/technical-guide/18-detail-callout-style-toolbar.png)
 
@@ -322,7 +322,7 @@ Create your viewport per your desired method, then:
 2. Double-click on the Interior Elevation Marker from the Tool Set panel.
 3. Verify that the style is "FirmName – Interior Elevation Marker Style."
 4. Select the Linked Layer that is the sheet where the interior elevation resides.
-5. Note that N/S/E/W in the info box means top/bottom/left/right of the marker, not the actual orientation of our building.
+5. Note that N/S/E/W in the info box means top/bottom/left/right of the marker, not the actual orientation of the building.
 6. Select/clear the N/S/E/W boxes and select the correct Linked Viewport for the selected boxes.
 7. Click **OK**.
 8. Click to place your marker.
@@ -366,7 +366,7 @@ Select the reference marker and update the information in the Object Info panel.
 
 This document has already gone over a few of the symbols you can add, including Sheet Scales and the Architect Stamp. There are a few more that can be useful, if you wish to use them.
 
-To insert a symbol, click the Symbol Insertion Tool, then select the symbol you want to use from just above the drawing area — the Active Symbol Def dropdown.
+To insert a symbol, click the Symbol Insertion Tool, then select the symbol you want to use — the Active Symbol Def dropdown.
 
 ### Breaklines
 
