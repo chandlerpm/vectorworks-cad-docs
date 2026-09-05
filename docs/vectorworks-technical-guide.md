@@ -1,6 +1,6 @@
 # Vectorworks Technical Guide
 
-*Standards and procedures for day-to-day CAD production at Larkspur Studio Architecture (LSA).*
+*Standards and procedures for day-to-day CAD production at an Architecture Firm.*
 
 This guide covers the recurring, easy-to-forget procedures for working inside the firm's Vectorworks project setup — from opening a shared project for the first time through the symbol and title-block conventions used on every sheet. It assumes you're working inside an existing project template; for how a project gets set up in the first place, see the companion [Project Sharing & Version Control Concepts](project-sharing-workflow.md) guide.
 
@@ -34,7 +34,7 @@ This is an admin-level process for new projects. This assumes the new project ha
 
 Vectorworks has a project file that is saved on the server. You will not be editing this file directly. Instead, you will make a working copy that is saved on your computer. After the first time you create a working file, you do not need to repeat this process — simply open your working file and begin work. If you wish to learn more about how the working files and server files coexist, see the [Project Sharing & Version Control Concepts](project-sharing-workflow.md) guide.
 
-> **Note:** Some of the really old projects weren't converted over to the server/working-file system, because they were closed prior to the firm's adoption of this method. If a file on the server ends in `.vwx`, you may open the file directly.
+> **Note:** Some of the old projects weren't converted over to the server/working-file system, because they were closed prior to the firm's adoption of this method. If a file on the server ends in `.vwx`, you may open the file directly.
 
 ### New Working Files
 
@@ -46,7 +46,7 @@ Vectorworks has a project file that is saved on the server. You will not be edit
 
 #### Older Projects
 
-At some point in the summer of 2025, Vectorworks changed how to open project files. If the above method doesn't work, you'll have to use this older process to create a working file.
+In the summer of 2025, Vectorworks changed how to open project files. If the above method doesn't work, you'll have to use this older process to create a working file.
 
 1. Open Vectorworks.
 2. Select **File | Open Project Sharing Server File**.
@@ -61,9 +61,9 @@ At some point in the summer of 2025, Vectorworks changed how to open project fil
 
 ## Notes about Automation
 
-Most of the changes to the LSA workflow have to do with taking advantage of the automations Vectorworks provides. Objects like drawing labels, section markers, and title blocks are not edited directly — more often than not, they are *not* editable by double-clicking on them. Instead, select the object and look at the Object Info panel. What you're wanting to change is either locked for style purposes or easily editable there.
+Most of the changes to the firm's workflow have to do with taking advantage of the automations Vectorworks provides. Objects like drawing labels, section markers, and title blocks are not edited directly — more often than not, they are *not* editable by double-clicking on them. Instead, select the object and look at the Object Info panel. What you're wanting to change is either locked for style purposes or easily editable there.
 
-The project folder contains AB, SD, and CD sheets with title blocks that already have the correct information for their corresponding sheet. The design layers are set up with the firm's typical areas of interest — add, edit, or delete these to meet individual project needs (see your firm's Vectorworks admin guide for more on how). The classes are set up with the typical ones the firm uses, and are editable.
+The project folder contains AB, SD, and CD sheets with title blocks that already have the correct information for their corresponding sheet. The design layers are set up with the firm's typical areas of interest — add, edit, or delete these to meet individual project needs (see the firm's Vectorworks admin guide for more on how). The classes are set up with the typical ones the firm uses, and are editable.
 
 ## Setup for New Projects
 
@@ -203,7 +203,7 @@ If your sheet already has a border that needs to change, you may either:
 
    ![Symbol definition toolbar](images/technical-guide/14-symbol-definition-toolbar.png)
 
-3. At the top of the list for your drawing should be the LSA Architectural Stamp. Double-click to select it.
+3. At the top of the list for your drawing should be the FirmName Architectural Stamp. Double-click to select it.
 
    ![Architectural Stamp symbol](images/technical-guide/15-architectural-stamp-symbol.png)
 
@@ -243,7 +243,7 @@ You can use viewports on design layers, of course. Follow steps 1, 2, 3 (but cho
 2. Keep "Name viewport as Dwg No./Sheet No." checked.
 3. Create on layer — select the sheet where the viewport should be placed.
 4. "Use drawing label" should be checked.
-5. The style needs to be "LSA Drawing Label" — either the SD or CD version.
+5. The style needs to be "FirmName Drawing Label" — either the SD or CD version.
 6. Fill in the Drawing Number and Drawing Title.
 7. Choose the correct scale.
 8. Press **OK**.
@@ -270,7 +270,7 @@ When creating a new section, you'll want to have the viewport of the section alr
 
 1. Open the annotation area of the viewport where you want to place the marker.
 2. Click on "Section-Elevation Line Tool" in the Tool Sets area.
-3. Up top of the drawing area, there will be an info area with "Style" information — be certain this says LSA Section-Elevation Line.
+3. Up top of the drawing area, there will be an info area with "Style" information — be certain this says FirmName Section-Elevation Line.
 4. Click on the drawing to place the marker's start, end, and direction. Add more points if desired, then press Enter to end the marker line.
 5. Select the section line you just drew and choose the viewport you want it to point to in the "Linked Viewport" dropdown in the Object Info panel.
 
@@ -298,7 +298,7 @@ Create your viewport per your desired method, then:
 
 1. Edit the viewport annotation where you want to call out the detail.
 2. Select the Detail Callout Tool in the Dim/Notes area of the Tool Sets.
-3. Just above the drawing area, verify that the style is "LSA – Detail Callout Style."
+3. Just above the drawing area, verify that the style is "FirmName – Detail Callout Style."
 
    ![Detail Callout Style toolbar](images/technical-guide/18-detail-callout-style-toolbar.png)
 
@@ -320,7 +320,7 @@ Create your viewport per your desired method, then:
 
 1. Edit the annotations for the viewport in question.
 2. Double-click on the Interior Elevation Marker from the Tool Set panel.
-3. Verify that the style is "LSA – Interior Elevation Marker Style."
+3. Verify that the style is "FirmName – Interior Elevation Marker Style."
 4. Select the Linked Layer that is the sheet where the interior elevation resides.
 5. Note that N/S/E/W in the info box means top/bottom/left/right of the marker, not the actual orientation of our building.
 6. Check/uncheck the N/S/E/W boxes and select the correct Linked Viewport for the checked boxes.
@@ -354,7 +354,7 @@ In case you need one:
 
    ![Reference Marker style](images/technical-guide/19-reference-marker-style.png)
 
-5. Verify that "LSA Ref Marker" is selected in the Style dropdown.
+5. Verify that "FirmName Ref Marker" is selected in the Style dropdown.
 6. The Drawing Title, Drawing Number, and Sheet Number are automatically updated and will remain current with the information you previously added when you created the detail viewport.
 7. You're able to edit the Detail Shape and Reference Marker as usual.
 
